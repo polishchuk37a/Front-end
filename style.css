@@ -5,16 +5,18 @@ body {
 
 .headerImg{
     background: url(Images/Rectangle1.png) no-repeat;
+    background-size: 100% 100%;
     width: 100%;
     height: 754px;
 }
 
 .links{
+    justify-content: flex-end;
     align-items: center;
     display: flex;
     padding-top: 50px;
-    margin-left: 584px;
     height: 15px;
+    margin-right: 130px;
 }
 
 li a{
@@ -35,7 +37,7 @@ li{
     text-align: center;
 }
 
-.button1{
+.btn1{
     background-color: #F84646;
     width: 91px;
     height: 40px;
@@ -55,7 +57,6 @@ li{
 .hText{
     width: 665px;
     height: 164px;
-    left: 122px;
     top: 160px;
 
     font-family: Manrope;
@@ -68,7 +69,6 @@ li{
 .hText1{
     width: 650px;
     height: 99px;
-    left: 122px;
 
     font-family: Manrope;
     font-style: normal;
@@ -83,10 +83,10 @@ li{
 .inputText{
     font-size: 16px;
     padding-left: 32px;
-    width: 502px;
+    padding-right: 202px;
+    width: 300px;
     height: 73px;
     left: 122px;
-    top: 540px;
 
     border-radius: 8px;
     border-style: none;
@@ -94,7 +94,7 @@ li{
 
 .headerInfo{
     padding-left: 122px;
-    margin-top: 120px;
+    margin-top: 140px;
 }
 
 .bodyText{
@@ -121,4 +121,15 @@ li{
 
 
     letter-spacing: 0.2px;
+}
+
+.btn2{
+    position: relative;
+    left: -147px;
+    background-color: #F84646;
+    width: 136px;
+    height: 61px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
 }
