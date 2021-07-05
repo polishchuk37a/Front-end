@@ -10,30 +10,36 @@ body {
 }
 
 .links{
+    align-items: center;
     display: flex;
-    padding-top: 45px;
+    padding-top: 50px;
     margin-left: 584px;
+    height: 15px;
 }
 
 li a{
-    text-transform: uppercase;
+    font-family: Manrope;
     text-decoration: none;
     color: #000000;
-    margin-left: 20px;
+    margin-left: 35px;
 
+    font-weight: 700;
     font-size: 14px;
 }
 
 li{
-    list-style-type: none;
 
+    list-style-type: none;
+    font-family: Manrope;
+    font-size: 10px;
+    text-align: center;
 }
 
 .button1{
     background-color: #F84646;
     width: 91px;
     height: 40px;
-    margin-left: 25px;
+    margin-left: 40px;
     top: 20px;
     border-radius: 5px;
     color: #FFFFFF;
@@ -60,7 +66,6 @@ li{
 }
 
 .hText1{
-
     width: 650px;
     height: 99px;
     left: 122px;
@@ -90,4 +95,30 @@ li{
 .headerInfo{
     padding-left: 122px;
     margin-top: 120px;
+}
+
+.bodyText{
+    margin-top: 100px;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.bodyText1{
+    padding-left: 460px;
+    text-align: center;
+    width: 994px;
+    height: 109px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
+
+
+    letter-spacing: 0.2px;
 }
