@@ -153,6 +153,13 @@ li{
     height: auto;
 }
 
+@media only screen and (max-width: 980px){
+    .bodyText1 {
+        width: 800px;
+        height: 150px;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .wrapper{
         display: grid;
@@ -161,32 +168,45 @@ li{
 }
 
 @media only screen and (max-width: 800px) {
+    .bodyText1 {
+        width: 500px;
+        height: 200px;
+    }
     .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .wrapper{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
 @media only screen and (max-width: 500px) {
+    .bodyText1 {
+        width: 334px;
+        height: 109px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .bodyText{
+        margin-top: 60px;
+        width: 286px;
+        height: 31px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+    }
+
     .wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
     }
 }
 
-@media only screen and (max-width: 450px) {
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
 .cardInfo{
     margin-left: auto;
@@ -268,6 +288,11 @@ li{
     font-weight: bold;
     font-size: 64px;
     line-height: 76px;
+}
+
+.title{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .sectionTitle {
@@ -379,4 +404,8 @@ li{
     line-height: 31px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 450px) {
+
 }
