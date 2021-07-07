@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+.sectionHeader{
+    width: 1800px;
+    margin: 0 auto;
+}
+
 .headerImg{
     background: url(Images/Rectangle1.png) no-repeat;
     background-size: 100% 100%;
@@ -69,6 +74,7 @@ li{
     width: 650px;
     height: 99px;
 
+    margin-top: -35px;
     font-family: Manrope;
     font-style: normal;
     font-weight: 400;
@@ -80,6 +86,7 @@ li{
 }
 
 .inputText{
+    margin-top: 35px;
     font-size: 16px;
     padding-left: 32px;
     padding-right: 202px;
@@ -132,6 +139,14 @@ li{
     border-radius: 8px;
     border: none;
     color: #FFFFFF;
+}
+
+.sectionWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
 }
 
 .wrapper {
