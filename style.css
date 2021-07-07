@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.container{
+    width: 100%;
+}
+
 .sectionHeader{
     width: 1800px;
     margin: 0 auto;
@@ -15,13 +19,17 @@ body {
     height: 754px;
 }
 
-.links{
+.links ul{
     justify-content: flex-end;
     align-items: center;
     display: flex;
     padding-top: 50px;
     height: 15px;
     margin-right: 130px;
+}
+
+ul{
+    margin-top: 0;
 }
 
 li a{
@@ -146,7 +154,7 @@ li{
     flex-direction: row;
     width: 1200px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 30px;
 }
 
 .wrapper {
@@ -167,61 +175,6 @@ li{
     width: 100%;
     height: auto;
 }
-
-@media only screen and (max-width: 980px){
-    .bodyText1 {
-        width: 800px;
-        height: 150px;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .bodyText1 {
-        width: 500px;
-        height: 200px;
-    }
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .bodyText1 {
-        width: 334px;
-        height: 109px;
-        font-size: 12px;
-        line-height: 22px;
-    }
-
-    .bodyText{
-        margin-top: 60px;
-        width: 286px;
-        height: 31px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 24px;
-    }
-
-    .wrapper{
-        margin-top: 50px;
-    }
-}
-
 
 .cardInfo{
     margin-left: auto;
@@ -287,6 +240,11 @@ li{
     position: absolute;
     margin-top: -10px;
     margin-left: 18px;
+}
+
+.sectionRedBackground{
+    width: 100%;
+    margin: 0 auto;
 }
 
 .backgroundRed{
@@ -432,9 +390,7 @@ li{
     line-height: 76px;
 }
 
-.container{
-    width: 100%;
-}
+
 
 .sectionContainer{
     display: flex;
@@ -532,4 +488,252 @@ li{
     font-size: 16px;
     line-height: 32px;
     color: #808080;
+}
+
+@media only screen and (max-width: 1170px){
+    .sectionWrapper{
+        width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .sectionWrapper{
+        width: 900px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .bodyText1 {
+        width: 800px;
+        height: 150px;
+    }
+
+    .wrapper{
+        margin-top: 20px;
+    }
+
+    .sectionWrapper{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .sectionWrapper{
+        width: 700px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .bodyText1 {
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    .sectionWrapper{
+        width: 600px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .sectionWrapper{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .sectionHeader{
+        width: 480px;
+    }
+
+    .headerImg{
+        background: url(Images/Rectangle1.png) no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 601px;
+    }
+
+    .links ul{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding-top: 140px;
+    }
+
+    li{
+        list-style-type: none;
+        font-family: Manrope;
+        font-size: 10px;
+    }
+
+    .headerInfo{
+        margin-top: 40px;
+        padding-left: 82px;
+    }
+
+    .hText{
+        margin-top: 5px;
+        width: 335px;
+        height: 160px;
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 57px;
+        text-align: center;
+    }
+
+    .hText1{
+        width: 335px;
+        height: 87px;
+        font-size: 12px;
+        line-height: 23px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .inputText{
+        width: 245px;
+        height: 60px;
+        padding-right: 100px;
+    }
+
+    .btn2{
+        top: -55px;
+        width: 90px;
+        height: 50px;
+        left: 278px;
+    }
+
+    .bodyText{
+        width: 286px;
+        height: 31px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .bodyText1 {
+        width: 334px;
+        height: 109px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .bodyText{
+        margin-top: 60px;
+        width: 286px;
+        height: 31px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+    }
+
+    .sectionWrapper{
+        width: 450px;
+    }
+
+    .cardInfo{
+        width: 284px;
+        height: 31px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .cardText{
+        width: 298px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 2px;
+    }
+
+    .backgroundRed{
+        margin-top: 700px;
+        height: 836px;
+    }
+
+    .sectionTitle{
+        width: 335px;
+        height: 94px;
+        font-size: 36px;
+        line-height: 47px;
+        text-align: center;
+    }
+
+    .description{
+        width: 190px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .block{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstBlock{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insideTitle{
+        margin: 0;
+        text-align: center;
+    }
+
+    .insideTitle2{
+        margin: 0;
+        text-align: center;
+    }
+
+    .insideTitle3{
+        margin: 0;
+        text-align: center;
+    }
+
+    .insideTitle4{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secondBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thirdBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fourthBlock{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle{
+        transform: rotate(90deg);
+        margin-top: 5px;
+    }
 }
