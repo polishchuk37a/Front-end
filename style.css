@@ -30,7 +30,6 @@ body {
     top: 43px;
     left: 25px;
     width: 26px;
-    height: 26px;
     cursor: pointer;
 }
 
@@ -61,7 +60,7 @@ body {
     width: 100%;
     height: 215px;
     margin: 0;
-    padding: 50px 0;
+    padding: 70px 0;
     list-style: none;
     z-index: 1;
     background-color: #ECEFF1;
@@ -117,6 +116,7 @@ body {
 
 ul{
     margin-top: 0;
+    list-style-type: none;
 }
 
 li a{
@@ -914,9 +914,10 @@ li a{
     }
 }
 
+/*adaptation for phone*/
 @media only screen and (max-width: 576px) {
-    /*header adaptation*/
 
+    /*header adaptation*/
     .sectionHeader{
         width: 335px;
     }
@@ -989,7 +990,6 @@ li a{
     }
 
     /*first block adaptation*/
-
     .bodyText{
         width: 286px;
         height: 31px;
@@ -1119,7 +1119,6 @@ li a{
 
 
     /*fourth block adaptation*/
-
     .sectionContainer{
         display: flex;
         flex-direction: column;
@@ -1343,5 +1342,41 @@ li a{
 
     .logs img{
         padding-left: 10px;
+    }
+}
+
+
+/*adaptation for Ipad*/
+
+@media only screen and (max-width: 1024px){
+
+    .sectionHeader{
+        width: 100%;
+    }
+
+    .links ul{
+        margin-right: 50px;
+    }
+
+    .hText{
+        padding-top: 100px;
+        padding-right: 300px;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 73px;
+        margin-top: 0;
+    }
+
+    .headerInfo{
+        min-width: 900px;
+
+        margin: 0 auto;
+        padding-left: 70px;
+    }
+
+    .headerImg{
+        background-size: cover;
+        background: url(Images/Rectangle1.png) no-repeat center center;
+        height: 647px;
     }
 }
