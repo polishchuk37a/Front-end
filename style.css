@@ -19,6 +19,89 @@ body {
     height: 754px;
 }
 
+/*hamburger-menu*/
+.hamburger-menu{
+    display: none;
+}
+
+.menu__btn {
+    align-items: center;
+    position: absolute;
+    top: 43px;
+    left: 25px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: #616161;
+    z-index:2;
+}
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 215px;
+    margin: 0;
+    padding: 50px 0;
+    list-style: none;
+    z-index: 1;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+}
+
+.menu__item {
+    margin-left: 0;
+    display: block;
+    padding: 12px;
+    color: #333;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu__item:hover {
+    text-decoration: underline;
+}
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+
 .links ul{
     justify-content: flex-end;
     align-items: center;
@@ -26,6 +109,10 @@ body {
     padding-top: 50px;
     height: 15px;
     margin-right: 130px;
+}
+
+.rel:hover{
+    text-decoration: underline;
 }
 
 ul{
@@ -62,6 +149,11 @@ li a{
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
+}
+
+.btn1:hover{
+    background: #d44242;
+    cursor: pointer;
 }
 
 .hText{
@@ -141,6 +233,11 @@ li a{
     color: #FFFFFF;
 }
 
+.btn2:hover{
+    background: #d44242;
+    cursor: pointer;
+}
+
 .sectionWrapper{
     display: flex;
     flex-direction: row;
@@ -201,6 +298,15 @@ li a{
     position: relative;
 }
 
+.vectors:hover{
+    cursor: pointer;
+}
+
+.cardInfo:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .pinkBall{
     position: absolute;
     margin-left: 20px;
@@ -256,13 +362,14 @@ li a{
 }
 
 .title{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .sectionTitle {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     padding-top: 60px;
     width: 836px;
     height: 64px;
@@ -305,6 +412,11 @@ li a{
     color: #FFFFFF;
 }
 
+.insideTitle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .block{
     justify-content: center;
     margin-top: 70px;
@@ -326,6 +438,11 @@ li a{
     line-height: 31px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+}
+
+.insideTitle2:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .secondBlock{
@@ -356,6 +473,11 @@ li a{
     color: #FFFFFF;
 }
 
+.insideTitle3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .insideTitle4{
     width: 230px;
     height: 62px;
@@ -367,6 +489,11 @@ li a{
     line-height: 31px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
+}
+
+.insideTitle4:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .bodyText2{
@@ -435,6 +562,11 @@ li a{
     border-radius: 8px;
     border: none;
     color: white;
+}
+
+.btn3:hover{
+    background: #d44242;
+    cursor: pointer;
 }
 
 .section_container{
@@ -613,6 +745,11 @@ li a{
     font-size: 24px;
 }
 
+.btn4:hover{
+    background: #d44242;
+    cursor: pointer;
+}
+
 .btn4Block{
     margin-top: 30px;
     display: flex;
@@ -682,7 +819,7 @@ li a{
     display: flex;
     width: 1500px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .footerText{
@@ -696,8 +833,21 @@ li a{
     color: #FFFFFF;
 }
 
+.text:hover{
+    text-decoration: underline;
+}
+
 .logs{
-    margin-left: 920px;
+    margin-left: 870px;
+}
+
+.logs img:hover{
+    cursor: pointer;
+    opacity: 0.33;
+}
+
+.logs img{
+    padding-left: 10px;
 }
 
 @media only screen and (max-width: 1170px){
@@ -785,23 +935,27 @@ li a{
     }
 
     .headerImg{
-        background: url(Images/Rectangle1.png) no-repeat;
-        background-size: 100% 100%;
-        width: 100%;
+        background-size: cover;
+        background: url(Images/Rectangle1.png) no-repeat center center;
         height: 601px;
     }
 
-    .links ul{
-        align-items: flex-start;
-        display: flex;
-        flex-direction: column;
-        padding-top: 140px;
+    /*hamburger menu show*/
+    .hamburger-menu{
+        display: block;
     }
 
-    li{
-        list-style-type: none;
-        font-family: Manrope;
-        font-size: 10px;
+    .btn1{
+        display: flex;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .links ul{
+        display: none;
     }
 
     .headerInfo{
@@ -810,10 +964,9 @@ li a{
     }
 
     .hText{
-        margin-top: 5px;
+        margin-top: 61px;
         width: 335px;
         height: 160px;
-        font-weight: 800;
         font-size: 42px;
         line-height: 57px;
         text-align: center;
@@ -1140,7 +1293,7 @@ li a{
     }
 
     .footer{
-        height: 1340px;
+        height: 1370px;
         width: 100%;
         margin-top: 93px;
     }
@@ -1151,8 +1304,7 @@ li a{
     }
 
     .title2{
-
-        margin-top: 44px;
+        margin-top: 40px;
     }
 
     .title2 h2{
@@ -1160,21 +1312,36 @@ li a{
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 21px;
         color: #FFFFFF;
         margin-top: 0;
     }
 
     .lowerBLock{
-        display: flex;
+        width: 350px;
         flex-direction: column;
+        margin-top: 15px;
     }
 
     .footerText{
-        order: 2;
         width: 277px;
         height: 32px;
         font-size: 16px;
         line-height: 32px;
+    }
+
+    .textFooter{
+        margin-left: 10px;
+        margin-top: 45px;
+        order: 2;
+    }
+
+    .logs{
+        margin-left: 0;
+        order: 1;
+    }
+
+    .logs img{
+        padding-left: 10px;
     }
 }
