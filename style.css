@@ -381,9 +381,10 @@ li a{
 }
 
 .sectionContainer{
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 1024px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 130px;
 }
@@ -437,9 +438,10 @@ li a{
 }
 
 .section_container{
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 1024px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -648,6 +650,16 @@ li a{
     margin-top: 80px;
 }
 
+.title2 h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+
 .footerLinks li{
     list-style-type: none;
     font-size: 16px;
@@ -756,7 +768,20 @@ li a{
     /*header adaptation*/
 
     .sectionHeader{
-        width: 480px;
+        width: 335px;
+    }
+
+    .input_Button{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .inputText{
+        padding-left: 21px;
+        width: 150px;
+        height: 60px;
+        padding-right: 164px;
+        font-size: 14px;
     }
 
     .headerImg{
@@ -781,7 +806,7 @@ li a{
 
     .headerInfo{
         margin-top: 40px;
-        padding-left: 82px;
+        padding-left: 0;
     }
 
     .hText{
@@ -803,17 +828,11 @@ li a{
         margin-top: 30px;
     }
 
-    .inputText{
-        width: 245px;
-        height: 60px;
-        padding-right: 100px;
-    }
-
     .btn2{
-        top: -55px;
+        top: -57px;
         width: 90px;
         height: 50px;
-        left: 278px;
+        left: 115px;
     }
 
     /*first block adaptation*/
@@ -843,7 +862,7 @@ li a{
     }
 
     .sectionWrapper{
-        width: 450px;
+        width: 335px;
     }
 
     .cardInfo{
@@ -1040,5 +1059,122 @@ li a{
         font-size: 14px;
         line-height: 28px;
         text-align: center;
+    }
+
+    .sectionServices{
+        width: 250px;
+    }
+
+    .titleServices h1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 274px;
+        height: 42px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+        text-align: center;
+    }
+
+    .imageBlock{
+        flex-direction: column;
+    }
+
+    .ad{
+        width: 100%;
+        height: 1000px;
+        margin-top: 90px;
+    }
+
+    .fourth_img{
+        display: none;
+    }
+
+    .fifth_img{
+        display: none;
+    }
+
+    .sectionUsers{
+        width: 100%;
+    }
+
+    .redEllipse {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+    .usersLabel{
+        width: 192px;
+        height: 32px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 32px;
+    }
+
+    .usersDescription{
+        width: 335px;
+        height: 50px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .usersImg{
+        margin-top: 90px;
+    }
+
+    .btn4{
+        width: 124px;
+        height: 42px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer{
+        height: 1340px;
+        width: 100%;
+        margin-top: 93px;
+    }
+
+    .footerSection{
+        width: 335px;
+        grid-template-columns: 1fr;
+    }
+
+    .title2{
+
+        margin-top: 44px;
+    }
+
+    .title2 h2{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-top: 0;
+    }
+
+    .lowerBLock{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerText{
+        order: 2;
+        width: 277px;
+        height: 32px;
+        font-size: 16px;
+        line-height: 32px;
     }
 }
