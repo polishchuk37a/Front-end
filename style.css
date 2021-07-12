@@ -399,7 +399,6 @@ li a{
 }
 
 .insideTitle{
-    display: flex;
     width: 170px;
     height: 62px;
     margin-left: 50px;
@@ -850,73 +849,711 @@ li a{
     padding-left: 10px;
 }
 
-@media only screen and (max-width: 1170px){
-    .sectionWrapper{
-        width: 1100px;
-    }
-}
+@media only screen and (max-width: 1024px){
 
-@media only screen and (max-width: 1080px){
+    .imageBlock{
+        margin-top: 48px;
+    }
+    .ad{
+        height: 603px;
+    }
+    .block{
+        width: 100%;
+    }
+
+    .first_img img{
+        max-width: 150px;
+    }
+
+    .second_img{
+        max-width: 170px;
+    }
+
+    .second_img img{
+        max-width: 210px;
+    }
+    .third_img{
+        max-width: 170px;
+    }
+
+    .third_img img{
+        max-width: 210px;
+    }
+    .fourth_img{
+        max-width: 170px;
+    }
+
+    .fifth_img img{
+        max-width: 150px;
+        margin-left: 40px;
+    }
+
+    .fourth_img img{
+        max-width: 210px;
+    }
+
+    .sectionHeader{
+        width: 950px;
+    }
+
+    .links ul{
+        margin-right: 0;
+    }
+
+    .headerInfo{
+        padding-left: 30px;
+    }
+
+    .hText{
+        width: 665px;
+        height: 147px;
+        font-size: 56px;
+    }
+
+    .hText1{
+        width: 565px;
+        height: 99px;
+        font-size: 16px;
+    }
+
+    .inputText{
+        width: 390px;
+        padding-right: 0;
+    }
+
+    .btn2{
+        left: -127px;
+        width: 114px;
+        height: 61px;
+    }
+
+    .aboutTitle{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .bodyText1{
+        width: 100%;
+        height: 170px;
+    }
+
     .sectionWrapper{
-        width: 900px;
+        width: 100%;
+        margin-top: 0;
     }
     .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .sectionRedBackground{
+        width: 100%;
+    }
+    .backgroundRed{
+        height: 300px;
+    }
+    .block{
+        padding-top: 0;
+    }
+
+    .firstBlock{
+        width: 230px;
+    }
+    .insideTitle{
+        width: 129px;
+        height: 52px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .insideTitle2{
+        width: 129px;
+        height: 52px;
+        font-size: 14px;
+        margin-left: 60px;
+    }
+
+    .insideTitle3{
+        width: 129px;
+        height: 52px;
+        font-size: 14px;
+        margin-left: 60px;
+    }
+    .insideTitle4{
+        width: 129px;
+        height: 52px;
+        font-size: 14px;
+        margin-left: 60px;
+    }
+
+    .circle{
+        margin-left: 50px;
+    }
+
+    .sectionContainer{
+        width: 100%;
+    }
+
+    .insideCont{
+        width: 410px;
+    }
+
+    .insideCont2{
+        width: 400px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .bodyText2{
+        font-size: 58px;
+        width: 515px;
+        height: 119px;
+    }
+
+    .bodyText3{
+        font-size: 14px;
+        width: 428px;
+        height: 171px;
+    }
+
+    .btn3{
+        margin-top: 15px;
+    }
+
+    .illustration{
+        width: 424px;
+        height: 404px;
+    }
+
+    .illustrationCon{
+        padding-left: 0;
+    }
+
+    .illustration2{
+        width: 424px;
+        height: 404px;
+    }
+
+    .section_container{
+        width: 100%;
+    }
+
+    .bodyText4{
+        font-size: 58px;
+        width: 515px;
+        height: 119px;
+    }
+
+    .bodyText5{
+        font-size: 14px;
+        width: 428px;
+        height: 171px;
+    }
+
+
+    .sectionUsers{
+        width: 100%;
+    }
+
+    .footer{
+        height: 536px;
+        width: 100%;
+        margin-top: 93px;
+    }
+
+    .footerSection{
+        padding-left: 30px;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .title2{
+        margin-top: 80px;
+    }
+
+    .title2 h2{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-top: 0;
+    }
+
+    .lowerBLock{
+        width: 950px;
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+
+    .footerText{
+        width: 277px;
+        height: 32px;
+        font-size: 16px;
+        line-height: 32px;
+        margin: 0;
+    }
+
+    .textFooter{
+
+        margin-top: 0;
+
+    }
+
+    .logs{
+        margin-left: 0;
+
+    }
+
+    .logs img{
+        padding-left: 10px;
+    }
+
 }
 
-@media only screen and (max-width: 980px){
-    .bodyText1 {
-        width: 800px;
+/*adaptation for IPad*/
+
+@media only screen and (max-width: 812px){
+
+    .imageBlock{
+        margin-top: 10px;
+    }
+
+    .first_img img{
+        max-width: 170px;
+    }
+    .second_img img{
+        max-width: 250px;
+    }
+
+    .third_img img{
+        max-width: 250px;
+    }
+
+    .fourth_img{
+        max-width: 250px;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .menu__box {
         height: 150px;
     }
 
-    .wrapper{
-        margin-top: 20px;
+    .menu__item {
+        padding: 8px;
     }
 
-    .sectionWrapper{
-        margin-top: 30px;
+    .btn1{
+        display: flex;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        font-weight: bold;
+        font-size: 14px;
     }
-}
 
-@media only screen and (max-width: 850px){
+    .headerImg{
+        background-size: cover;
+        background: url(Images/Rectangle1.png) no-repeat center center;
+        height: 500px;
+    }
+
+    .links ul{
+        display: none;
+    }
+
+    .sectionHeader{
+        width: 100%;
+    }
+
+    .input_Button{
+        padding-left: 80px;
+    }
+
+    .headerInfo{
+        margin-top: 40px;
+        padding-left: 0;
+    }
+
+    .hText{
+        margin-top: 100px;
+        width: 350px;
+        height: 100px;
+        font-size: 30px;
+        line-height: 44px;
+        padding-left: 80px;
+        margin-bottom: 0;
+    }
+
+    .hText1{
+        width: 335px;
+        height: 87px;
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 0;
+        padding-left: 80px;
+    }
+
+    .btn2{
+        width: 90px;
+        height: 50px;
+        margin-left: 27px;
+    }
+
+    .inputText{
+        padding-left: 21px;
+        width: 150px;
+        height: 60px;
+        padding-right: 164px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+
+    .aboutTitle{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .bodyText1{
+        width: 100%;
+        height: 170px;
+    }
+
+
     .sectionWrapper{
-        width: 700px;
+        width: 100%;
+        margin-top: 0;
     }
     .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-}
 
-@media only screen and (max-width: 800px) {
-    .bodyText1 {
+    .cardSize{
+        height: 80px;
+    }
+
+    .backgroundRed{
+        height: 740px;
+    }
+
+    .sectionTitle{
+        padding-top: 40px;
         width: 500px;
-        height: 200px;
+        height: 94px;
+        font-size: 42px;
+        line-height: 47px;
+        text-align: center;
     }
-}
 
-@media only screen and (max-width: 690px){
-    .sectionWrapper{
-        width: 600px;
+    .description{
+        width: 190px;
+        height: 32px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
     }
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
 
-@media only screen and (max-width: 600px){
-    .sectionWrapper{
+    .block{
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstBlock{
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insideTitle{
+        height: 60px;
+        margin: 0;
+        text-align: center;
+        font-size: 26px;
+        width: 400px;
+    }
+
+    .insideTitle2{
+        width: 400px;
+        height: 60px;
+        font-size: 26px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .insideTitle3{
+        width: 400px;
+        height: 60px;
+        font-size: 26px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .insideTitle4{
+        width: 400px;
+        height: 60px;
+        font-size: 26px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .secondBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .thirdBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .fourthBlock{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .circle{
+        transform: rotate(90deg);
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*fourth block*/
+    .sectionContainer{
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .insideCont{
+        width: 550px;
+        order: 2;
+    }
+
+    .illustrationCon{
+        padding-left: 0;
+    }
+
+    .illustration{
+        order: 1;
+        width: 550px;
+        height: 550px;
+    }
+    .bodyText2{
+        height: 40px;
+        width: 550px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .bodyText3{
+        width: 550px;
+        height: 150px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .btn3{
+        font-size: 23px;
+        margin-top: 0;
+        width: 550px;
+        height: 56px;
+    }
+
+    .section_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .insideCont2{
+        width: 550px;
+        order: 1;
+        padding-left: 0;
+        margin-left: auto;
+    }
+
+    .illustrationCon2{
+        padding-left: 0;
+    }
+
+    .illustration2{
+        order: 2;
+        width: 550px;
+        height: 550px;
+    }
+
+    .bodyText4{
+        width: 550px;
+        height: 40px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .second_img{
+        max-width: 300px;
+    }
+    .third_img{
+        max-width: 300px;
+    }
+    .fourth_img{
+        max-width: 300px;
+    }
+
+
+    .bodyText5{
+        width: 550px;
+        height: 170px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .sectionUsers{
+        width: 100%;
+    }
+
+    .usersDescription{
+        width: 100%;
+        text-align: center;
+        height: 40px;
+    }
+    .titleUsers{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .sectionServices{
         width: 500px;
+    }
+
+    .titleServices h1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 274px;
+        height: 42px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+        text-align: center;
+    }
+
+    .imageBlock{
+        flex-direction: column;
+    }
+
+    .ad{
+        width: 100%;
+        height: 950px;
+        margin-top: 90px;
+    }
+
+    .fourth_img{
+        display: none;
+    }
+
+    .fifth_img{
+        display: none;
+    }
+
+    .second_img{
+        text-align: center;
+    }
+
+    .third_img{
+        text-align: center;
+    }
+
+    /*footer adaptation*/
+    .footer{
+        height: 800px;
+        width: 100%;
+        margin-top: 93px;
+    }
+
+    .footerSection{
+        padding-left: 0;
+        width: 590px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .title2{
+        margin-top: 80px;
+    }
+
+    .title2 h2{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-top: 0;
+    }
+
+    .lowerBLock{
+        width: 610px;
+        display: flex;
+        margin-top: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footerText{
+        width: 277px;
+        height: 32px;
+        font-size: 16px;
+        line-height: 32px;
+        margin: 0;
+    }
+
+    .textFooter{
+        margin-left: 80px;
+        margin-top: 0;
+        order: 2;
+    }
+
+    .logs{
+        margin-left: 0;
+        order: 1;
+    }
+
+    .logs img{
+        padding-left: 10px;
     }
 }
 
 /*adaptation for phone*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 615px) {
 
+    .insideCont{
+        width: 338px;
+    }
+
+    .insideCont2{
+        width: 338px;
+    }
     /*header adaptation*/
     .sectionHeader{
         width: 335px;
@@ -925,6 +1562,7 @@ li a{
     .input_Button{
         text-align: center;
         margin: 0 auto;
+        padding-left: 0;
     }
 
     .inputText{
@@ -944,6 +1582,13 @@ li a{
     /*hamburger menu show*/
     .hamburger-menu{
         display: block;
+    }
+
+    .menu__box {
+        height: 215px;
+    }
+    .menu__item {
+        padding: 15px;
     }
 
     .btn1{
@@ -971,6 +1616,7 @@ li a{
         font-size: 42px;
         line-height: 57px;
         text-align: center;
+        padding-left: 0;
     }
 
     .hText1{
@@ -980,6 +1626,7 @@ li a{
         line-height: 23px;
         text-align: center;
         margin-top: 30px;
+        padding-left: 0;
     }
 
     .btn2{
@@ -987,6 +1634,7 @@ li a{
         width: 90px;
         height: 50px;
         left: 115px;
+        margin-left: 0;
     }
 
     /*first block adaptation*/
@@ -1012,6 +1660,11 @@ li a{
         margin-left: auto;
         margin-right: auto;
         font-size: 24px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .sectionWrapper{
@@ -1073,21 +1726,32 @@ li a{
     .insideTitle{
         margin: 0;
         text-align: center;
+        font-size: 18px;
+        width: 200px;
     }
 
     .insideTitle2{
-        margin: 0;
+        width: 200px;
+        height: 52px;
+        font-size: 18px;
         text-align: center;
+        margin-left: 0;
     }
 
     .insideTitle3{
-        margin: 0;
+        width: 200px;
+        height: 52px;
+        font-size: 18px;
         text-align: center;
+        margin-left: 0;
     }
 
     .insideTitle4{
-        margin: 0;
+        width: 200px;
+        height: 52px;
+        font-size: 18px;
         text-align: center;
+        margin-left: 0;
     }
 
     .secondBlock{
@@ -1120,6 +1784,7 @@ li a{
 
     /*fourth block adaptation*/
     .sectionContainer{
+        margin-top: 90px;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -1317,7 +1982,7 @@ li a{
     }
 
     .lowerBLock{
-        width: 350px;
+        width: 335px;
         flex-direction: column;
         margin-top: 15px;
     }
@@ -1342,41 +2007,5 @@ li a{
 
     .logs img{
         padding-left: 10px;
-    }
-}
-
-
-/*adaptation for Ipad*/
-
-@media only screen and (max-width: 1024px){
-
-    .sectionHeader{
-        width: 100%;
-    }
-
-    .links ul{
-        margin-right: 50px;
-    }
-
-    .hText{
-        padding-top: 100px;
-        padding-right: 300px;
-        font-weight: 800;
-        font-size: 56px;
-        line-height: 73px;
-        margin-top: 0;
-    }
-
-    .headerInfo{
-        min-width: 900px;
-
-        margin: 0 auto;
-        padding-left: 70px;
-    }
-
-    .headerImg{
-        background-size: cover;
-        background: url(Images/Rectangle1.png) no-repeat center center;
-        height: 647px;
     }
 }
