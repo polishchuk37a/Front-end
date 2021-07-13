@@ -23,7 +23,6 @@ body {
 .hamburger-menu{
     display: none;
 }
-
 .menu__btn {
     align-items: center;
     position: absolute;
@@ -32,7 +31,6 @@ body {
     width: 26px;
     cursor: pointer;
 }
-
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -50,7 +48,6 @@ body {
     content: '';
     top: 8px;
 }
-
 .menu__box {
     text-align: center;
     display: block;
@@ -66,7 +63,6 @@ body {
     background-color: #ECEFF1;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
 }
-
 .menu__item {
     margin-left: 0;
     display: block;
@@ -80,11 +76,9 @@ body {
 .menu__item:hover {
     text-decoration: underline;
 }
-
 #menu__toggle {
     opacity: 0;
 }
-
 #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
 }
@@ -101,12 +95,12 @@ body {
     left: 0;
 }
 
+
 .header_links ul{
     justify-content: flex-end;
     align-items: center;
     display: flex;
-    padding-top: 50px;
-    height: 15px;
+    padding-top: 45px;
     margin-right: 130px;
 }
 
@@ -128,25 +122,15 @@ li a{
     font-size: 14px;
 }
 
-.links{
-    list-style-type: none;
-    font-family: Manrope;
-    font-size: 10px;
-    text-align: center;
-}
-
 .header_button-links{
     background-color: #F84646;
+    font-weight: bold;
     width: 91px;
     height: 40px;
     margin-left: 40px;
-    top: 20px;
     border-radius: 5px;
     color: #FFFFFF;
     border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     padding: 10px 20px;
 }
@@ -156,12 +140,15 @@ li a{
     cursor: pointer;
 }
 
+.header_block{
+    padding-left: 122px;
+    margin-top: 140px;
+}
+
 .header_title{
+    font-family: Manrope;
     width: 665px;
     height: 164px;
-    top: 160px;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: 800;
     font-size: 64px;
     line-height: 82px;
@@ -170,15 +157,11 @@ li a{
 .header_text{
     width: 650px;
     height: 99px;
-
     margin-top: -35px;
     font-family: Manrope;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-    letter-spacing: 0.2px;
-    color: #000000;
 }
 
 .input_field{
@@ -188,38 +171,8 @@ li a{
     padding-right: 202px;
     width: 300px;
     height: 73px;
-    left: 122px;
     border-radius: 8px;
     border-style: none;
-}
-
-.header_block{
-    padding-left: 122px;
-    margin-top: 140px;
-}
-
-.first_block_title{
-    margin-top: 100px;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 49px;
-    text-align: center;
-}
-
-.first_block_text{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 994px;
-    height: 109px;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 39px;
-    letter-spacing: 0.2px;
 }
 
 .search_button{
@@ -232,7 +185,6 @@ li a{
     border: none;
     color: #FFFFFF;
 }
-
 .search_button:hover{
     background: #d44242;
     cursor: pointer;
@@ -243,7 +195,28 @@ li a{
     flex-direction: row;
     width: 1200px;
     margin: 0 auto;
-    margin-top: 30px;
+}
+
+.quality_control-title{
+    font-family: Manrope;
+    margin-top: 100px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.quality_control-text{
+    font-family: Manrope;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 994px;
+    height: 109px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
 }
 
 .wrapper {
@@ -258,36 +231,26 @@ li a{
 
 .wrapper_block{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     background: white;
     width: 100%;
-    height: auto;
 }
 
 .wrapper_block_title{
+    font-family: Manrope;
     margin-left: auto;
     margin-right: auto;
-    width: 284px;
-    height: 31px;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
-    line-height: 33px;
 }
 
 .wrapper_block_text{
+    font-family: Manrope;
     margin-left: auto;
     margin-right: auto;
     width: 298px;
-    height: 84px;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0.2px;
 }
 
 .figure{
@@ -348,63 +311,30 @@ li a{
     height: 376px;
 }
 
-.about-us-title{
-    width: 608px;
-    height: 152px;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 76px;
-}
-
 .offers_info{
     width: 100%;
     margin: 0 auto;
 }
 
 .offers-title{
+    font-family: Manrope;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-top: 60px;
-    width: 836px;
-    height: 64px;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
-    line-height: 64px;
-    font-feature-settings: 'liga' off;
     color: #FFFFFF;
 }
 
 .offers-text{
+    font-family: Manrope;
     text-align: center;
     margin-top: -30px;
     margin-left: auto;
     margin-right: auto;
-    width: 836px;
-    height: 32px;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 32px;
-    font-feature-settings: 'liga' off;
-    color: #FFFFFF;
-}
-
-.first_step-title{
-    width: 170px;
-    height: 62px;
-    margin-left: 50px;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 31px;
-    font-feature-settings: 'liga' off;
     color: #FFFFFF;
 }
 
@@ -418,16 +348,12 @@ li a{
     display: flex;
 }
 
-.second_step-title{
-    width: 230px;
-    height: 62px;
-    margin-left: 50px;
+.first_step-title{
     font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
+    width: 170px;
+    margin-left: 50px;
     font-size: 18px;
     line-height: 31px;
-    font-feature-settings: 'liga' off;
     color: #FFFFFF;
 }
 
@@ -435,11 +361,13 @@ li a{
     display: flex;
 }
 
-.circle{
-    width: 32px;
-    height: 32px;
-    margin-top: 30px;
-    margin-left: 20px;
+.second_step-title{
+    font-family: Manrope;
+    width: 230px;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFFFFF;
 }
 
 .third_step{
@@ -447,46 +375,27 @@ li a{
 }
 
 .third_step-title{
+    font-family: Manrope;
     width: 200px;
     height: 62px;
     margin-left: 50px;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
     font-size: 18px;
     line-height: 31px;
-    font-feature-settings: 'liga' off;
     color: #FFFFFF;
 }
 
 .fourth_step-title{
+    font-family: Manrope;
     width: 230px;
     height: 62px;
     margin-left: 50px;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
     font-size: 18px;
     line-height: 31px;
-    font-feature-settings: 'liga' off;
     color: #FFFFFF;
 }
 
-.about-us-title{
-    margin: 0;
-    width: 520px;
-    height: 152px;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 76px;
-}
-
 .section-about_us{
-    justify-content: space-between;
     display: flex;
-    flex-direction: row;
     width: 1200px;
     margin: 0 auto;
     margin-top: 130px;
@@ -496,20 +405,30 @@ li a{
     margin: 0 auto;
 }
 
-.about-testing_block{
-    margin: 0 auto;
-    padding-left: 145px;
+.about-us-title{
+    font-family: Manrope;
+    margin: 0;
+    width: 520px;
+    height: 152px;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 76px;
 }
 
 .about-us-text{
+    font-family: Manrope;
     margin-top:40px;
     width: 523px;
     height: 160px;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
     color: #808080;
+}
+
+.about-testing_block{
+    margin: 0 auto;
+    padding-left: 145px;
 }
 
 .illustration{
@@ -528,10 +447,7 @@ li a{
 }
 
 .button_find{
-    flex-direction: row;
-    justify-content: center;
     margin-top: 69px;
-    align-items: center;
     width: 160px;
     height: 48px;
     background: #F84646;
@@ -546,9 +462,7 @@ li a{
 }
 
 .section-about_testing{
-    justify-content: space-between;
     display: flex;
-    flex-direction: row;
     width: 1200px;
     margin: 0 auto;
     margin-top: 100px;
@@ -565,11 +479,9 @@ li a{
 }
 
 .about-testing-title{
-    margin: 0px;
-    width: 548px;
-    height: 152px;
     font-family: Manrope;
-    font-style: normal;
+    margin: 0;
+    width: 548px;
     font-weight: bold;
     font-size: 64px;
     line-height: 76px;
@@ -577,11 +489,9 @@ li a{
 }
 
 .about-testing-text{
-    width: 523px;
-    height: 160px;
-    margin-top:40px;
     font-family: Manrope;
-    font-style: normal;
+    width: 523px;
+    margin-top:40px;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
@@ -595,12 +505,9 @@ li a{
 }
 
 .our_partners{
-    display: flex;
-    flex-direction: column;
     margin-top: 160px;
     height: 630px;
     background: #F4F5F7;
-    color: #18191F;
 }
 
 .steps{
@@ -610,18 +517,16 @@ li a{
 }
 
 .services-title{
-    margin: 0 auto;
     text-align: center;
     padding-top: 59px;
 }
 
 .services-title h1{
-    margin: 0;
     font-family: Manrope;
+    margin: 0;
     height: 64px;
     font-size: 48px;
     font-weight: 800;
-    line-height: 64px;
 }
 
 .services-text{
@@ -676,42 +581,35 @@ li a{
 }
 
 .call_us-title{
+    font-family: Manrope;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 256px;
     height: 32px;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 32px;
 }
 
 .call_us-text{
-    margin-top: -15px;
+    font-family: Manrope;
     margin-left: auto;
     margin-right: auto;
     width: 645px;
     height: 32px;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 32px;
 }
 
 .button_call{
-    justify-content: center;
-    align-items: center;
+    font-family: Manrope;
     width: 204px;
     height: 70px;
     color: #FFFFFF;
     background: #F84646;
     border-radius: 8px;
     border: none;
-    font-family: Manrope;
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
 }
@@ -731,7 +629,6 @@ li a{
     background: #F8464A;
     height: 536px;
     margin-top: 185px;
-    width: 100%;
 }
 
 .section_footer{
@@ -747,27 +644,21 @@ li a{
 
 .text_links li{
     margin-top: 24px;
-}
-
-.link_block h2{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-top: 80px;
-}
-.footer_links li{
-    list-style-type: none;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
 }
 
+.link_block h2{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+
 .text{
     font-family: Inter;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
@@ -787,7 +678,6 @@ li a{
     width: 400px;
     height: 32px;
     font-family: Inter;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
@@ -827,11 +717,13 @@ li a{
     .footer{
         box-sizing: border-box;
     }
+
     .section_footer{
         width: 100%;
         padding-left: 80px;
         box-sizing: border-box;
     }
+
     .lower_footer{
         padding-left: 80px;
         padding-right: 80px;
@@ -840,7 +732,6 @@ li a{
     }
 
     .social_networks{
-
         margin-left: auto;
     }
 }
@@ -902,7 +793,6 @@ li a{
     }
 
     .header_title{
-        width: 665px;
         height: 147px;
         font-size: 56px;
     }
@@ -924,12 +814,7 @@ li a{
         height: 61px;
     }
 
-    .aboutTitle{
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-
-    .first_block_text{
+    .quality_control-text{
         width: 100%;
         height: 170px;
     }
@@ -997,7 +882,6 @@ li a{
 
     .about-testing_block{
         width: 400px;
-        margin-left: 0;
         padding-left: 0;
     }
 
@@ -1047,7 +931,6 @@ li a{
         height: 171px;
     }
 
-
     .contacts{
         width: 100%;
     }
@@ -1062,20 +945,6 @@ li a{
         padding-left: 30px;
         width: 100%;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    .title2{
-        margin-top: 80px;
-    }
-
-    .title2 h2{
-        font-family: Inter;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        color: #FFFFFF;
-        margin-top: 0;
     }
 
     .lower_footer{
@@ -1217,7 +1086,7 @@ li a{
         margin-left: 15px;
     }
 
-    .first_block_text{
+    .quality_control-text{
         width: 100%;
         height: 170px;
     }
@@ -1496,19 +1365,6 @@ li a{
         grid-template-columns: 1fr 1fr;
     }
 
-    .title2{
-        margin-top: 80px;
-    }
-
-    .title2 h2{
-        font-family: Inter;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        color: #FFFFFF;
-        margin-top: 0;
-    }
 
     .lower_footer{
         width: 610px;
@@ -1636,7 +1492,10 @@ li a{
     }
 
     /*first block adaptation*/
-    .first_block_title{
+    .quality_control-title{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
         width: 286px;
         height: 31px;
         font-weight: 800;
@@ -1644,20 +1503,11 @@ li a{
         line-height: 33px;
     }
 
-    .first_block_text{
+    .quality_control-text{
         width: 334px;
         height: 109px;
         font-size: 12px;
         line-height: 22px;
-    }
-
-    .first_block_title{
-        margin-top: 60px;
-        width: 286px;
-        height: 31px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 24px;
     }
 
     .wrapper {
@@ -1962,20 +1812,6 @@ li a{
     .section_footer{
         width: 335px;
         grid-template-columns: 1fr;
-    }
-
-    .title2{
-        margin-top: 40px;
-    }
-
-    .title2 h2{
-        font-family: Inter;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        color: #FFFFFF;
-        margin-top: 0;
     }
 
     .lower_footer{
