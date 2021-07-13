@@ -7,12 +7,12 @@ body {
     width: 100%;
 }
 
-.sectionHeader{
+.header_section{
     width: 1800px;
     margin: 0 auto;
 }
 
-.headerImg{
+.header_image{
     background: url(Images/Rectangle1.png) no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -101,7 +101,7 @@ body {
     left: 0;
 }
 
-.links ul{
+.header_links ul{
     justify-content: flex-end;
     align-items: center;
     display: flex;
@@ -110,7 +110,7 @@ body {
     margin-right: 130px;
 }
 
-.rel:hover{
+.links:hover{
     text-decoration: underline;
 }
 
@@ -128,14 +128,14 @@ li a{
     font-size: 14px;
 }
 
-.headerLinks{
+.links{
     list-style-type: none;
     font-family: Manrope;
     font-size: 10px;
     text-align: center;
 }
 
-.btn1{
+.header_button-links{
     background-color: #F84646;
     width: 91px;
     height: 40px;
@@ -151,12 +151,12 @@ li a{
     padding: 10px 20px;
 }
 
-.btn1:hover{
+.header_button-links:hover{
     background: #d44242;
     cursor: pointer;
 }
 
-.hText{
+.header_title{
     width: 665px;
     height: 164px;
     top: 160px;
@@ -167,7 +167,7 @@ li a{
     line-height: 82px;
 }
 
-.hText1{
+.header_text{
     width: 650px;
     height: 99px;
 
@@ -181,7 +181,7 @@ li a{
     color: #000000;
 }
 
-.inputText{
+.input_field{
     margin-top: 35px;
     font-size: 16px;
     padding-left: 32px;
@@ -193,12 +193,12 @@ li a{
     border-style: none;
 }
 
-.headerInfo{
+.header_block{
     padding-left: 122px;
     margin-top: 140px;
 }
 
-.bodyText{
+.first_block_title{
     margin-top: 100px;
     font-family: Manrope;
     font-style: normal;
@@ -208,7 +208,7 @@ li a{
     text-align: center;
 }
 
-.bodyText1{
+.first_block_text{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -222,7 +222,7 @@ li a{
     letter-spacing: 0.2px;
 }
 
-.btn2{
+.search_button{
     position: relative;
     left: -147px;
     background-color: #F84646;
@@ -233,12 +233,12 @@ li a{
     color: #FFFFFF;
 }
 
-.btn2:hover{
+.search_button:hover{
     background: #d44242;
     cursor: pointer;
 }
 
-.sectionWrapper{
+.section_quality_control{
     display: flex;
     flex-direction: row;
     width: 1200px;
@@ -256,7 +256,7 @@ li a{
     height: 800px;
 }
 
-.card{
+.wrapper_block{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -265,7 +265,7 @@ li a{
     height: auto;
 }
 
-.cardInfo{
+.wrapper_block_title{
     margin-left: auto;
     margin-right: auto;
     width: 284px;
@@ -277,7 +277,7 @@ li a{
     line-height: 33px;
 }
 
-.cardText{
+.wrapper_block_text{
     margin-left: auto;
     margin-right: auto;
     width: 298px;
@@ -290,68 +290,65 @@ li a{
     letter-spacing: 0.2px;
 }
 
-.vectors{
+.figure{
     text-align: center;
-}
-
-.vectors{
     position: relative;
 }
 
-.vectors:hover{
+.figure:hover{
     cursor: pointer;
 }
 
-.cardInfo:hover{
+.wrapper_block_title:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 
-.pinkBall{
+.pink_ball{
     position: absolute;
     margin-left: 20px;
     margin-top: -10px;
 }
 
-.purpleBall{
+.purple_ball{
     position: absolute;
     margin-left: -10px;
 }
 
-.blueBall{
+.blue_ball{
     position: absolute;
     margin-left: 40px;
     margin-top: -5px;
 }
 
-.blueBall1{
+.second_blue_ball{
     position: absolute;
     margin-top: 5px;
 }
 
-.redBall{
+.red_ball{
     position: absolute;
     margin-left: 38px;
 }
 
-.yellowBall{
+.yellow_ball{
     position: absolute;
     margin-top: -10px;
     margin-left: 18px;
 }
 
-.sectionRedBackground{
+.section_offers{
     width: 100%;
     margin: 0 auto;
 }
 
-.backgroundRed{
+.offers{
     width: 100%;
     background: #F84646;
     height: 376px;
 }
 
-.bodyText2{
+.about-us-title{
     width: 608px;
     height: 152px;
     font-family: Manrope;
@@ -361,12 +358,12 @@ li a{
     line-height: 76px;
 }
 
-.title{
+.offers_info{
     width: 100%;
     margin: 0 auto;
 }
 
-.sectionTitle {
+.offers-title{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -382,7 +379,7 @@ li a{
     color: #FFFFFF;
 }
 
-.description{
+.offers-text{
     text-align: center;
     margin-top: -30px;
     margin-left: auto;
@@ -398,7 +395,7 @@ li a{
     color: #FFFFFF;
 }
 
-.insideTitle{
+.first_step-title{
     width: 170px;
     height: 62px;
     margin-left: 50px;
@@ -411,22 +408,17 @@ li a{
     color: #FFFFFF;
 }
 
-.insideTitle:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.block{
+.steps{
     justify-content: center;
     margin-top: 70px;
     display: flex;
 }
 
-.firstBlock{
+.first_step{
     display: flex;
 }
 
-.insideTitle2{
+.second_step-title{
     width: 230px;
     height: 62px;
     margin-left: 50px;
@@ -439,12 +431,7 @@ li a{
     color: #FFFFFF;
 }
 
-.insideTitle2:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.secondBlock{
+.second_step{
     display: flex;
 }
 
@@ -455,11 +442,11 @@ li a{
     margin-left: 20px;
 }
 
-.thirdBlock{
+.third_step{
     display: flex;
 }
 
-.insideTitle3{
+.third_step-title{
     width: 200px;
     height: 62px;
     margin-left: 50px;
@@ -472,12 +459,7 @@ li a{
     color: #FFFFFF;
 }
 
-.insideTitle3:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.insideTitle4{
+.fourth_step-title{
     width: 230px;
     height: 62px;
     margin-left: 50px;
@@ -490,12 +472,7 @@ li a{
     color: #FFFFFF;
 }
 
-.insideTitle4:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.bodyText2{
+.about-us-title{
     margin: 0;
     width: 520px;
     height: 152px;
@@ -506,7 +483,7 @@ li a{
     line-height: 76px;
 }
 
-.sectionContainer{
+.section-about_us{
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -515,16 +492,16 @@ li a{
     margin-top: 130px;
 }
 
-.insideCont{
+.about-us_block{
     margin: 0 auto;
 }
 
-.insideCont2{
+.about-testing_block{
     margin: 0 auto;
     padding-left: 145px;
 }
 
-.bodyText3{
+.about-us-text{
     margin-top:40px;
     width: 523px;
     height: 160px;
@@ -541,16 +518,16 @@ li a{
     border-radius: 8px;
 }
 
-.illustrationCon{
+.first_illustration{
     padding-left: 170px;
     margin: 0 auto;
 }
 
-.illustrationCon2{
+.second_illustration{
     margin: 0 auto;
 }
 
-.btn3{
+.button_find{
     flex-direction: row;
     justify-content: center;
     margin-top: 69px;
@@ -563,12 +540,12 @@ li a{
     color: white;
 }
 
-.btn3:hover{
+.button_find:hover{
     background: #d44242;
     cursor: pointer;
 }
 
-.section_container{
+.section-about_testing{
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -577,7 +554,7 @@ li a{
     margin-top: 100px;
 }
 
-.insideCont2{
+.about-testing_block{
     margin: 0 auto;
 }
 
@@ -587,7 +564,7 @@ li a{
     border-radius: 8px;
 }
 
-.bodyText4{
+.about-testing-title{
     margin: 0px;
     width: 548px;
     height: 152px;
@@ -599,7 +576,7 @@ li a{
     color: #2E2E2E;
 }
 
-.bodyText5{
+.about-testing-text{
     width: 523px;
     height: 160px;
     margin-top:40px;
@@ -611,19 +588,13 @@ li a{
     color: #808080;
 }
 
-.services{
-    width: 100%;
-    margin-top: 160px;
-    height: 603px;
-    background: #F4F5F7;
-}
 
-.sectionServices{
+.services{
     width: 900px;
     margin: 0 auto;
 }
 
-.ad{
+.our_partners{
     display: flex;
     flex-direction: column;
     margin-top: 160px;
@@ -632,19 +603,19 @@ li a{
     color: #18191F;
 }
 
-.block{
+.steps{
     padding-top: 45px;
     width: 700px;
     margin: 0 auto;
 }
 
-.titleServices{
+.services-title{
     margin: 0 auto;
     text-align: center;
     padding-top: 59px;
 }
 
-.titleServices h1{
+.services-title h1{
     margin: 0;
     font-family: Manrope;
     height: 64px;
@@ -653,12 +624,12 @@ li a{
     line-height: 64px;
 }
 
-.descriptionServices{
+.services-text{
     margin: 0 auto;
     text-align: center;
 }
 
-.descriptionServices h1{
+.services-text h1{
     font-family: Manrope;
     margin: 0;
     font-size: 18px;
@@ -666,12 +637,13 @@ li a{
     line-height: 32px;
 }
 
-.imageBlock{
+.advertisement{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.imageBlock img{
+.advertisement img{
     margin-bottom: -50px;
 }
 
@@ -683,7 +655,7 @@ li a{
     padding-bottom: 60px;
 }
 
-.sectionUsers{
+.contacts{
     width: 1200px;
     margin: 0 auto;
 }
@@ -692,18 +664,18 @@ li a{
     text-align: center;
 }
 
-.usersImg{
+.users_img{
     position: relative;
     margin-top: 160px;
 }
 
-.redEllipse {
+.red_ellipse {
     position: absolute;
     margin-top: 165px;
     margin-left: 50px;
 }
 
-.usersLabel{
+.call_us-title{
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -716,7 +688,7 @@ li a{
     line-height: 32px;
 }
 
-.usersDescription{
+.call_us-text{
     margin-top: -15px;
     margin-left: auto;
     margin-right: auto;
@@ -729,7 +701,7 @@ li a{
     line-height: 32px;
 }
 
-.btn4{
+.button_call{
     justify-content: center;
     align-items: center;
     width: 204px;
@@ -744,12 +716,12 @@ li a{
     font-size: 24px;
 }
 
-.btn4:hover{
+.button_call:hover{
     background: #d44242;
     cursor: pointer;
 }
 
-.btn4Block{
+.btn_call_block{
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -762,7 +734,7 @@ li a{
     width: 100%;
 }
 
-.footerSection{
+.section_footer{
     width: 1500px;
     margin: 0 auto;
     display: grid;
@@ -777,7 +749,7 @@ li a{
     margin-top: 24px;
 }
 
-.link h2{
+.link_block h2{
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -786,18 +758,7 @@ li a{
     color: #FFFFFF;
     margin-top: 80px;
 }
-
-.title2 h2{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-top: 80px;
-}
-
-.footerLinks li{
+.footer_links li{
     list-style-type: none;
     font-size: 16px;
     font-weight: 400;
@@ -815,14 +776,14 @@ li a{
     color: #E6E6E6;
 }
 
-.lowerBLock{
+.lower_footer{
     display: flex;
     width: 1500px;
     margin: 0 auto;
     margin-top: 35px;
 }
 
-.footerText{
+.footer_text{
     width: 400px;
     height: 32px;
     font-family: Inter;
@@ -837,49 +798,48 @@ li a{
     text-decoration: underline;
 }
 
-.logs{
+.social_networks{
     margin-left: 870px;
 }
 
-.logs img:hover{
+.social_networks img:hover{
     cursor: pointer;
     opacity: 0.33;
 }
 
-.logs img{
+.social_networks img{
     padding-left: 10px;
 }
 
 @media only screen and (max-width: 1720px){
-    .sectionHeader{
+    .header_section{
         width: 100%;
     }
 
-    .sectionWrapper
-    {
+    .section_quality_control{
         width: 1000px;
     }
 
-    .links ul{
+    .header_links ul{
         margin-right: 50px;
     }
 
     .footer{
         box-sizing: border-box;
     }
-    .footerSection{
+    .section_footer{
         width: 100%;
         padding-left: 80px;
         box-sizing: border-box;
     }
-    .lowerBLock{
+    .lower_footer{
         padding-left: 80px;
         padding-right: 80px;
         width: 100%;
         box-sizing: border-box;
     }
 
-    .logs{
+    .social_networks{
 
         margin-left: auto;
     }
@@ -888,13 +848,13 @@ li a{
 
 @media only screen and (max-width: 1100px){
 
-    .imageBlock{
+    .advertisement{
         margin-top: 48px;
     }
-    .ad{
+    .our_partners{
         height: 603px;
     }
-    .block{
+    .steps{
         width: 100%;
     }
 
@@ -929,36 +889,36 @@ li a{
         max-width: 210px;
     }
 
-    .sectionHeader{
+    .header_section{
         width: 950px;
     }
 
-    .links ul{
+    .header_links ul{
         margin-right: 0;
     }
 
-    .headerInfo{
+    .header_block{
         padding-left: 30px;
     }
 
-    .hText{
+    .header_title{
         width: 665px;
         height: 147px;
         font-size: 56px;
     }
 
-    .hText1{
+    .header_text{
         width: 565px;
         height: 99px;
         font-size: 16px;
     }
 
-    .inputText{
+    .input_field{
         width: 390px;
         padding-right: 0;
     }
 
-    .btn2{
+    .search_button{
         left: -127px;
         width: 114px;
         height: 61px;
@@ -969,12 +929,12 @@ li a{
         margin-left: 15px;
     }
 
-    .bodyText1{
+    .first_block_text{
         width: 100%;
         height: 170px;
     }
 
-    .sectionWrapper{
+    .section_quality_control{
         width: 100%;
         margin-top: 0;
     }
@@ -983,40 +943,40 @@ li a{
         grid-template-columns: 1fr 1fr;
     }
 
-    .sectionRedBackground{
+    .section_offers{
         width: 100%;
     }
-    .backgroundRed{
+    .offers{
         height: 300px;
     }
-    .block{
+    .steps{
         padding-top: 0;
     }
 
-    .firstBlock{
+    .first_step{
         width: 230px;
     }
-    .insideTitle{
+    .first_step-title{
         width: 129px;
         height: 52px;
         font-size: 14px;
         margin-left: 0;
     }
 
-    .insideTitle2{
+    .second_step-title{
         width: 129px;
         height: 52px;
         font-size: 14px;
         margin-left: 60px;
     }
 
-    .insideTitle3{
+    .third_step-title{
         width: 129px;
         height: 52px;
         font-size: 14px;
         margin-left: 60px;
     }
-    .insideTitle4{
+    .fourth_step-title{
         width: 129px;
         height: 52px;
         font-size: 14px;
@@ -1027,33 +987,33 @@ li a{
         margin-left: 50px;
     }
 
-    .sectionContainer{
+    .section-about_us{
         width: 100%;
     }
 
-    .insideCont{
+    .about-us_block{
         width: 410px;
     }
 
-    .insideCont2{
+    .about-testing_block{
         width: 400px;
         margin-left: 0;
         padding-left: 0;
     }
 
-    .bodyText2{
+    .about-us-title{
         font-size: 58px;
         width: 515px;
         height: 119px;
     }
 
-    .bodyText3{
+    .about-us-text{
         font-size: 14px;
         width: 428px;
         height: 171px;
     }
 
-    .btn3{
+    .button_find{
         margin-top: 15px;
     }
 
@@ -1062,7 +1022,7 @@ li a{
         height: 404px;
     }
 
-    .illustrationCon{
+    .first_illustration{
         padding-left: 0;
     }
 
@@ -1071,24 +1031,24 @@ li a{
         height: 404px;
     }
 
-    .section_container{
+    .section-about_testing{
         width: 100%;
     }
 
-    .bodyText4{
+    .about-testing-title{
         font-size: 58px;
         width: 400px;
         height: 119px;
     }
 
-    .bodyText5{
+    .about-testing-text{
         font-size: 14px;
         width: 428px;
         height: 171px;
     }
 
 
-    .sectionUsers{
+    .contacts{
         width: 100%;
     }
 
@@ -1098,7 +1058,7 @@ li a{
         margin-top: 93px;
     }
 
-    .footerSection{
+    .section_footer{
         padding-left: 30px;
         width: 100%;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1118,7 +1078,7 @@ li a{
         margin-top: 0;
     }
 
-    .lowerBLock{
+    .lower_footer{
         padding-left: 30px;
         width: 100%;
         display: flex;
@@ -1126,7 +1086,7 @@ li a{
         justify-content: space-between;
     }
 
-    .footerText{
+    .footer_text{
         width: 277px;
         height: 32px;
         font-size: 16px;
@@ -1134,18 +1094,18 @@ li a{
         margin: 0;
     }
 
-    .textFooter{
+    .lower_footer-text{
 
         margin-top: 0;
 
     }
 
-    .logs{
+    .social_networks{
         margin-left: auto;
 
     }
 
-    .logs img{
+    .social_networks img{
         padding-left: 10px;
     }
 
@@ -1155,7 +1115,7 @@ li a{
 
 @media only screen and (max-width: 812px){
 
-    .imageBlock{
+    .advertisement{
         margin-top: 10px;
     }
 
@@ -1186,7 +1146,7 @@ li a{
         padding: 8px;
     }
 
-    .btn1{
+    .header_button-links{
         display: flex;
         position: absolute;
         top: 25px;
@@ -1195,30 +1155,30 @@ li a{
         font-size: 14px;
     }
 
-    .headerImg{
+    .header_image{
         background-size: cover;
         background: url(Images/Rectangle1.png) no-repeat center center;
         height: 500px;
     }
 
-    .links ul{
+    .header_links ul{
         display: none;
     }
 
-    .sectionHeader{
+    .header_section{
         width: 100%;
     }
 
-    .input_Button{
+    .search_box{
         padding-left: 80px;
     }
 
-    .headerInfo{
+    .header_block{
         margin-top: 40px;
         padding-left: 0;
     }
 
-    .hText{
+    .header_title{
         margin-top: 100px;
         width: 350px;
         height: 100px;
@@ -1228,7 +1188,7 @@ li a{
         margin-bottom: 0;
     }
 
-    .hText1{
+    .header_text{
         width: 335px;
         height: 87px;
         font-size: 14px;
@@ -1237,13 +1197,13 @@ li a{
         padding-left: 80px;
     }
 
-    .btn2{
+    .search_button{
         width: 90px;
         height: 50px;
         margin-left: 27px;
     }
 
-    .inputText{
+    .input_field{
         padding-left: 21px;
         width: 150px;
         height: 60px;
@@ -1257,13 +1217,13 @@ li a{
         margin-left: 15px;
     }
 
-    .bodyText1{
+    .first_block_text{
         width: 100%;
         height: 170px;
     }
 
 
-    .sectionWrapper{
+    .section_quality_control{
         width: 100%;
         margin-top: 0;
     }
@@ -1276,11 +1236,11 @@ li a{
         height: 80px;
     }
 
-    .backgroundRed{
+    .offers{
         height: 740px;
     }
 
-    .sectionTitle{
+    .offers-title{
         padding-top: 40px;
         width: 500px;
         height: 94px;
@@ -1289,7 +1249,7 @@ li a{
         text-align: center;
     }
 
-    .description{
+    .offers-text{
         width: 190px;
         height: 32px;
         font-size: 18px;
@@ -1297,7 +1257,7 @@ li a{
         text-align: center;
     }
 
-    .block{
+    .steps{
         padding-top: 20px;
         width: 100%;
         display: flex;
@@ -1305,14 +1265,14 @@ li a{
         align-items: center;
     }
 
-    .firstBlock{
+    .first_step{
         width: 370px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .insideTitle{
+    .first_step-title{
         height: 60px;
         margin: 0;
         text-align: center;
@@ -1320,7 +1280,7 @@ li a{
         width: 400px;
     }
 
-    .insideTitle2{
+    .second_step-title{
         width: 400px;
         height: 60px;
         font-size: 26px;
@@ -1328,14 +1288,14 @@ li a{
         margin-left: 0;
     }
 
-    .insideTitle3{
+    .third_step-title{
         width: 400px;
         height: 60px;
         font-size: 26px;
         text-align: center;
         margin-left: 0;
     }
-    .insideTitle4{
+    .fourth_step-title{
         width: 400px;
         height: 60px;
         font-size: 26px;
@@ -1343,21 +1303,21 @@ li a{
         margin-left: 0;
     }
 
-    .secondBlock{
+    .second_step{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
     }
 
-    .thirdBlock{
+    .third_step{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
     }
 
-    .fourthBlock{
+    .fourth_step{
         display: flex;
         flex-direction: column;
         margin-top: 20px;
@@ -1371,19 +1331,19 @@ li a{
     }
 
     /*fourth block*/
-    .sectionContainer{
+    .section-about_us{
         margin-top: 65px;
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .insideCont{
+    .about-us_block{
         width: 550px;
         order: 2;
     }
 
-    .illustrationCon{
+    .first_illustration{
         padding-left: 0;
     }
 
@@ -1392,14 +1352,14 @@ li a{
         width: 550px;
         height: 550px;
     }
-    .bodyText2{
+    .about-us-title{
         height: 40px;
         width: 550px;
         font-size: 36px;
         text-align: center;
     }
 
-    .bodyText3{
+    .about-us-text{
         width: 550px;
         height: 150px;
         font-family: Manrope;
@@ -1409,27 +1369,27 @@ li a{
         line-height: 28px;
         text-align: center;
     }
-    .btn3{
+    .button_find{
         font-size: 23px;
         margin-top: 0;
         width: 550px;
         height: 56px;
     }
 
-    .section_container{
+    .section-about_testing{
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .insideCont2{
+    .about-testing_block{
         width: 550px;
         order: 1;
         padding-left: 0;
         margin-left: auto;
     }
 
-    .illustrationCon2{
+    .second_illustration{
         padding-left: 0;
     }
 
@@ -1439,7 +1399,7 @@ li a{
         height: 550px;
     }
 
-    .bodyText4{
+    .about-testing-title{
         width: 550px;
         height: 40px;
         font-size: 36px;
@@ -1457,7 +1417,7 @@ li a{
     }
 
 
-    .bodyText5{
+    .about-testing-text{
         width: 550px;
         height: 170px;
         font-family: Manrope;
@@ -1467,25 +1427,25 @@ li a{
         line-height: 28px;
         text-align: center;
     }
-    .sectionUsers{
+    .contacts{
         width: 100%;
     }
 
-    .usersDescription{
+    .call_us-text{
         width: 100%;
         text-align: center;
         height: 40px;
     }
-    .titleUsers{
+    .call_us{
         margin-right: 15px;
         margin-left: 15px;
     }
 
-    .sectionServices{
+    .services{
         width: 500px;
     }
 
-    .titleServices h1{
+    .services-title h1{
         margin-left: auto;
         margin-right: auto;
         width: 274px;
@@ -1497,11 +1457,11 @@ li a{
         text-align: center;
     }
 
-    .imageBlock{
+    .advertisement{
         flex-direction: column;
     }
 
-    .ad{
+    .our_partners{
         width: 100%;
         height: 950px;
         margin-top: 90px;
@@ -1530,7 +1490,7 @@ li a{
         margin-top: 93px;
     }
 
-    .footerSection{
+    .section_footer{
         padding-left: 0;
         width: 590px;
         grid-template-columns: 1fr 1fr;
@@ -1550,7 +1510,7 @@ li a{
         margin-top: 0;
     }
 
-    .lowerBLock{
+    .lower_footer{
         width: 610px;
         display: flex;
         margin-top: 15px;
@@ -1558,7 +1518,7 @@ li a{
         padding-right: 0;
     }
 
-    .footerText{
+    .footer_text{
         width: 277px;
         height: 32px;
         font-size: 16px;
@@ -1566,18 +1526,18 @@ li a{
         margin: 0;
     }
 
-    .textFooter{
+    .lower_footer-text{
         margin-left: 80px;
         margin-top: 0;
         order: 2;
     }
 
-    .logs{
+    .social_networks{
         margin-left: 0;
         order: 1;
     }
 
-    .logs img{
+    .social_networks img{
         padding-left: 10px;
     }
 }
@@ -1585,25 +1545,25 @@ li a{
 /*adaptation for phone*/
 @media only screen and (max-width: 615px) {
 
-    .insideCont{
+    .about-us_block{
         width: 338px;
     }
 
-    .insideCont2{
+    .about-testing_block{
         width: 338px;
     }
     /*header adaptation*/
-    .sectionHeader{
+    .header_section{
         width: 335px;
     }
 
-    .input_Button{
+    .search_box{
         text-align: center;
         margin: 0 auto;
         padding-left: 0;
     }
 
-    .inputText{
+    .input_field{
         padding-left: 21px;
         width: 150px;
         height: 60px;
@@ -1611,7 +1571,7 @@ li a{
         font-size: 14px;
     }
 
-    .headerImg{
+    .header_image{
         background-size: cover;
         background: url(Images/Rectangle1.png) no-repeat center center;
         height: 601px;
@@ -1629,7 +1589,7 @@ li a{
         padding: 15px;
     }
 
-    .btn1{
+    .header_button-links{
         display: flex;
         position: absolute;
         top: 25px;
@@ -1638,16 +1598,16 @@ li a{
         font-size: 14px;
     }
 
-    .links ul{
+    .header_links ul{
         display: none;
     }
 
-    .headerInfo{
+    .header_block{
         margin-top: 40px;
         padding-left: 0;
     }
 
-    .hText{
+    .header_title{
         margin-top: 61px;
         width: 335px;
         height: 160px;
@@ -1657,7 +1617,7 @@ li a{
         padding-left: 0;
     }
 
-    .hText1{
+    .header_text{
         width: 335px;
         height: 87px;
         font-size: 12px;
@@ -1667,7 +1627,7 @@ li a{
         padding-left: 0;
     }
 
-    .btn2{
+    .search_button{
         top: -57px;
         width: 90px;
         height: 50px;
@@ -1676,7 +1636,7 @@ li a{
     }
 
     /*first block adaptation*/
-    .bodyText{
+    .first_block_title{
         width: 286px;
         height: 31px;
         font-weight: 800;
@@ -1684,14 +1644,14 @@ li a{
         line-height: 33px;
     }
 
-    .bodyText1 {
+    .first_block_text{
         width: 334px;
         height: 109px;
         font-size: 12px;
         line-height: 22px;
     }
 
-    .bodyText{
+    .first_block_title{
         margin-top: 60px;
         width: 286px;
         height: 31px;
@@ -1705,11 +1665,11 @@ li a{
         grid-template-columns: 1fr;
     }
 
-    .sectionWrapper{
+    .section_quality_control{
         width: 335px;
     }
 
-    .cardInfo{
+    .wrapper_block_title{
         width: 284px;
         height: 31px;
         font-weight: 800;
@@ -1717,7 +1677,7 @@ li a{
         line-height: 33px;
     }
 
-    .cardText{
+    .wrapper_block_text{
         width: 298px;
         height: 84px;
         font-size: 18px;
@@ -1726,12 +1686,12 @@ li a{
     }
 
     /*Red background adaptation*/
-    .backgroundRed{
+    .offers{
         margin-top: 700px;
         height: 880px;
     }
 
-    .sectionTitle{
+    .offers-title{
         padding-top: 40px;
         width: 335px;
         height: 94px;
@@ -1740,7 +1700,7 @@ li a{
         text-align: center;
     }
 
-    .description{
+    .offers-text{
         width: 190px;
         height: 32px;
         font-size: 14px;
@@ -1748,27 +1708,27 @@ li a{
         text-align: center;
     }
 
-    .block{
+    .steps{
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .firstBlock{
+    .first_step{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .insideTitle{
+    .first_step-title{
         margin: 0;
         text-align: center;
         font-size: 18px;
         width: 200px;
     }
 
-    .insideTitle2{
+    .second_step-title{
         width: 200px;
         height: 52px;
         font-size: 18px;
@@ -1776,7 +1736,7 @@ li a{
         margin-left: 0;
     }
 
-    .insideTitle3{
+    .third_step-title{
         width: 200px;
         height: 52px;
         font-size: 18px;
@@ -1784,7 +1744,7 @@ li a{
         margin-left: 0;
     }
 
-    .insideTitle4{
+    .fourth_step-title{
         width: 200px;
         height: 52px;
         font-size: 18px;
@@ -1792,21 +1752,21 @@ li a{
         margin-left: 0;
     }
 
-    .secondBlock{
+    .second_step{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 44px;
     }
 
-    .thirdBlock{
+    .third_step{
         margin-top: 44px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .fourthBlock{
+    .fourth_step{
         margin-top: 44px;
         display: flex;
         flex-direction: column;
@@ -1821,18 +1781,18 @@ li a{
 
 
     /*fourth block adaptation*/
-    .sectionContainer{
+    .section-about_us{
         margin-top: 90px;
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .insideCont{
+    .about-us_block{
         order: 2;
     }
 
-    .illustrationCon{
+    .first_illustration{
         padding-left: 0;
     }
 
@@ -1842,7 +1802,7 @@ li a{
         height: 312px;
     }
 
-    .bodyText2{
+    .about-us-title{
         padding-top: 30px;
         width: 335px;
         height: 83px;
@@ -1854,8 +1814,7 @@ li a{
         text-align: center;
     }
 
-    .bodyText3{
-
+    .about-us-text{
         width: 336px;
         height: 200px;
         font-family: Manrope;
@@ -1866,24 +1825,24 @@ li a{
         text-align: center;
     }
 
-    .btn3{
+    .button_find{
         margin-top: 40px;
         width: 338px;
         height: 48px;
     }
 
-    .section_container{
+    .section-about_testing{
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .insideCont2{
+    .about-testing_block{
         order: 1;
         padding-left: 0;
     }
 
-    .illustrationCon2{
+    .second_illustration{
         padding-left: 0;
     }
 
@@ -1893,7 +1852,7 @@ li a{
         height: 312px;
     }
 
-    .bodyText4{
+    .about-testing-title{
         padding-top: 30px;
         width: 335px;
         height: 83px;
@@ -1905,7 +1864,7 @@ li a{
         text-align: center;
     }
 
-    .bodyText5{
+    .about-testing-text{
         width: 336px;
         height: 200px;
         font-family: Manrope;
@@ -1916,11 +1875,11 @@ li a{
         text-align: center;
     }
 
-    .sectionServices{
+    .services{
         width: 250px;
     }
 
-    .titleServices h1{
+    .services-title h1{
         margin-left: auto;
         margin-right: auto;
         width: 274px;
@@ -1933,11 +1892,11 @@ li a{
         text-align: center;
     }
 
-    .imageBlock{
+    .advertisement{
         flex-direction: column;
     }
 
-    .ad{
+    .our_partners{
         width: 100%;
         height: 1000px;
         margin-top: 90px;
@@ -1951,17 +1910,17 @@ li a{
         display: none;
     }
 
-    .sectionUsers{
+    .contacts{
         width: 100%;
     }
 
-    .redEllipse {
+    .red_ellipse {
         position: absolute;
         margin-top: 100px;
         margin-left: 50px;
     }
 
-    .usersLabel{
+    .call_us-title{
         width: 192px;
         height: 32px;
         font-family: Manrope;
@@ -1971,7 +1930,7 @@ li a{
         line-height: 32px;
     }
 
-    .usersDescription{
+    .call_us-text{
         width: 335px;
         height: 50px;
         font-family: Manrope;
@@ -1982,11 +1941,11 @@ li a{
         text-align: center;
     }
 
-    .usersImg{
+    .users_img{
         margin-top: 90px;
     }
 
-    .btn4{
+    .button_call{
         width: 124px;
         height: 42px;
         font-weight: 600;
@@ -1995,12 +1954,12 @@ li a{
     }
 
     .footer{
-        height: 1370px;
+        height: 1440px;
         width: 100%;
         margin-top: 93px;
     }
 
-    .footerSection{
+    .section_footer{
         width: 335px;
         grid-template-columns: 1fr;
     }
@@ -2019,31 +1978,31 @@ li a{
         margin-top: 0;
     }
 
-    .lowerBLock{
+    .lower_footer{
         width: 335px;
         flex-direction: column;
         margin-top: 15px;
     }
 
-    .footerText{
+    .footer_text{
         width: 277px;
         height: 32px;
         font-size: 16px;
         line-height: 32px;
     }
 
-    .textFooter{
+    .lower_footer-text{
         margin-left: 10px;
         margin-top: 45px;
         order: 2;
     }
 
-    .logs{
+    .social_networks{
         margin-left: 0;
         order: 1;
     }
 
-    .logs img{
+    .social_networks img{
         padding-left: 10px;
     }
 }
