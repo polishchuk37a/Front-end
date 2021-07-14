@@ -172,6 +172,7 @@ li a{
     height: 73px;
     border-radius: 8px;
     border-style: none;
+    outline: none;
 }
 
 .search_button{
@@ -498,7 +499,7 @@ li a{
 }
 
 .services{
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -880,10 +881,6 @@ li a{
         margin-left: 30px;
     }
 
-    .circle{
-
-    }
-
     .section-about_us{
         width: 100%;
     }
@@ -939,7 +936,7 @@ li a{
 
     .about-testing-text{
         font-size: 14px;
-        width: 428px;
+        width: 400px;
         height: 171px;
     }
 
