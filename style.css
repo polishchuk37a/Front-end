@@ -95,7 +95,6 @@ body {
     left: 0;
 }
 
-
 .header_links ul{
     justify-content: flex-end;
     align-items: center;
@@ -155,10 +154,10 @@ li a{
 }
 
 .header_text{
+    font-family: Manrope;
     width: 650px;
     height: 99px;
     margin-top: -35px;
-    font-family: Manrope;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
@@ -213,7 +212,6 @@ li a{
     text-align: center;
     width: 994px;
     height: 109px;
-    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 39px;
@@ -223,7 +221,6 @@ li a{
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: -20px;
     background: #e3e8e5;
     width: 100%;
     height: 800px;
@@ -340,8 +337,10 @@ li a{
 
 .steps{
     justify-content: center;
-    margin-top: 70px;
     display: flex;
+    padding-top: 45px;
+    width: 700px;
+    margin: 0 auto;
 }
 
 .first_step{
@@ -350,7 +349,7 @@ li a{
 
 .first_step-title{
     font-family: Manrope;
-    width: 170px;
+    width: 180px;
     margin-left: 50px;
     font-size: 18px;
     line-height: 31px;
@@ -376,7 +375,7 @@ li a{
 
 .third_step-title{
     font-family: Manrope;
-    width: 200px;
+    width: 215px;
     height: 62px;
     margin-left: 50px;
     font-size: 18px;
@@ -392,6 +391,10 @@ li a{
     font-size: 18px;
     line-height: 31px;
     color: #FFFFFF;
+}
+
+.circle{
+    padding-left: 10px;
 }
 
 .section-about_us{
@@ -468,10 +471,6 @@ li a{
     margin-top: 100px;
 }
 
-.about-testing_block{
-    margin: 0 auto;
-}
-
 .illustration2{
     width: 504px;
     height: 480px;
@@ -498,7 +497,6 @@ li a{
     color: #808080;
 }
 
-
 .services{
     width: 900px;
     margin: 0 auto;
@@ -508,12 +506,6 @@ li a{
     margin-top: 160px;
     height: 630px;
     background: #F4F5F7;
-}
-
-.steps{
-    padding-top: 45px;
-    width: 700px;
-    margin: 0 auto;
 }
 
 .services-title{
@@ -543,6 +535,7 @@ li a{
 }
 
 .advertisement{
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -561,7 +554,7 @@ li a{
 }
 
 .contacts{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -675,9 +668,9 @@ li a{
 }
 
 .footer_text{
+    font-family: Inter;
     width: 400px;
     height: 32px;
-    font-family: Inter;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
@@ -697,7 +690,7 @@ li a{
     opacity: 0.33;
 }
 
-.social_networks img{
+.logs{
     padding-left: 10px;
 }
 
@@ -729,6 +722,7 @@ li a{
         padding-right: 80px;
         width: 100%;
         box-sizing: border-box;
+        align-items: center;
     }
 
     .social_networks{
@@ -736,6 +730,23 @@ li a{
     }
 }
 
+@media only screen and (max-width: 1230px){
+    .section-about_us{
+        width: 1100px;
+    }
+
+    .first_illustration{
+        padding-left: 50px;
+    }
+
+    .section-about_testing{
+        width: 1100px;
+    }
+
+    .about-testing_block{
+        padding-left: 50px;
+    }
+}
 
 @media only screen and (max-width: 1100px){
 
@@ -760,6 +771,7 @@ li a{
     .second_img img{
         max-width: 210px;
     }
+
     .third_img{
         max-width: 170px;
     }
@@ -767,6 +779,7 @@ li a{
     .third_img img{
         max-width: 210px;
     }
+
     .fourth_img{
         max-width: 170px;
     }
@@ -781,25 +794,25 @@ li a{
     }
 
     .header_section{
-        width: 950px;
+        width: 100%;
     }
 
     .header_links ul{
-        margin-right: 0;
+        margin-right: 50px;
     }
 
     .header_block{
-        padding-left: 30px;
+        padding-left: 100px;
     }
 
     .header_title{
+        width: 650px;
         height: 147px;
         font-size: 56px;
     }
 
     .header_text{
         width: 565px;
-        height: 99px;
         font-size: 16px;
     }
 
@@ -811,7 +824,6 @@ li a{
     .search_button{
         left: -127px;
         width: 114px;
-        height: 61px;
     }
 
     .quality_control-text{
@@ -824,52 +836,52 @@ li a{
         margin-top: 0;
     }
     .wrapper{
-        display: grid;
+        margin-top: 0;
         grid-template-columns: 1fr 1fr;
-    }
-
-    .section_offers{
-        width: 100%;
     }
     .offers{
         height: 300px;
     }
     .steps{
-        padding-top: 0;
+        padding-top: 30px;
+    }
+
+    .offers-title{
+        padding-top: 40px;
     }
 
     .first_step{
-        width: 230px;
+        width: 210px;
     }
     .first_step-title{
-        width: 129px;
+        width: 140px;
         height: 52px;
         font-size: 14px;
         margin-left: 0;
     }
 
     .second_step-title{
-        width: 129px;
+        width: 185px;
         height: 52px;
         font-size: 14px;
-        margin-left: 60px;
+        margin-left: 0;
     }
 
     .third_step-title{
-        width: 129px;
+        width: 175px;
         height: 52px;
         font-size: 14px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     .fourth_step-title{
-        width: 129px;
+        width: 141px;
         height: 52px;
         font-size: 14px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
 
     .circle{
-        margin-left: 50px;
+
     }
 
     .section-about_us{
@@ -936,53 +948,49 @@ li a{
     }
 
     .footer{
-        height: 536px;
         width: 100%;
         margin-top: 93px;
     }
 
     .section_footer{
         padding-left: 30px;
-        width: 100%;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .lower_footer{
         padding-left: 30px;
-        width: 100%;
-        display: flex;
         margin-top: 40px;
         justify-content: space-between;
     }
 
     .footer_text{
         width: 277px;
-        height: 32px;
-        font-size: 16px;
-        line-height: 32px;
         margin: 0;
     }
 
     .lower_footer-text{
-
         margin-top: 0;
+    }
+}
 
+@media only screen and (max-width: 890px){
+    li a{
+        margin-left: 30px;
     }
 
-    .social_networks{
-        margin-left: auto;
-
+    .header_links ul{
+        margin-right: 30px;
     }
 
-    .social_networks img{
-        padding-left: 10px;
+    .header_button-links{
+        margin-left: 30px;
     }
-
 }
 
 /*adaptation for IPad*/
-
-@media only screen and (max-width: 812px){
+@media only screen and (max-width: 817px){
+    .first_logo{
+        margin-left: 10px;
+    }
 
     .advertisement{
         margin-top: 10px;
@@ -1016,7 +1024,6 @@ li a{
     }
 
     .header_button-links{
-        display: flex;
         position: absolute;
         top: 25px;
         right: 25px;
@@ -1043,7 +1050,7 @@ li a{
     }
 
     .header_block{
-        margin-top: 40px;
+        margin-top: 120px;
         padding-left: 0;
     }
 
@@ -1086,18 +1093,8 @@ li a{
         margin-left: 15px;
     }
 
-    .quality_control-text{
-        width: 100%;
-        height: 170px;
-    }
-
-
-    .section_quality_control{
-        width: 100%;
-        margin-top: 0;
-    }
     .wrapper{
-        display: grid;
+        margin-top: 30px;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -1115,28 +1112,23 @@ li a{
         height: 94px;
         font-size: 42px;
         line-height: 47px;
-        text-align: center;
     }
 
     .offers-text{
         width: 190px;
         height: 32px;
-        font-size: 18px;
         line-height: 32px;
-        text-align: center;
     }
 
     .steps{
         padding-top: 20px;
         width: 100%;
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .first_step{
-        width: 370px;
-        display: flex;
+        width: 300px;
         flex-direction: column;
         align-items: center;
     }
@@ -1173,14 +1165,12 @@ li a{
     }
 
     .second_step{
-        display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
     }
 
     .third_step{
-        display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
@@ -1202,18 +1192,12 @@ li a{
     /*fourth block*/
     .section-about_us{
         margin-top: 65px;
-        display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
     .about-us_block{
         width: 550px;
         order: 2;
-    }
-
-    .first_illustration{
-        padding-left: 0;
     }
 
     .illustration{
@@ -1231,13 +1215,10 @@ li a{
     .about-us-text{
         width: 550px;
         height: 150px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
         line-height: 28px;
         text-align: center;
     }
+
     .button_find{
         font-size: 23px;
         margin-top: 0;
@@ -1246,15 +1227,12 @@ li a{
     }
 
     .section-about_testing{
-        display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
     .about-testing_block{
         width: 550px;
         order: 1;
-        padding-left: 0;
         margin-left: auto;
     }
 
@@ -1278,26 +1256,20 @@ li a{
     .second_img{
         max-width: 300px;
     }
+
     .third_img{
         max-width: 300px;
     }
+
     .fourth_img{
         max-width: 300px;
     }
 
-
     .about-testing-text{
         width: 550px;
         height: 170px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
         line-height: 28px;
         text-align: center;
-    }
-    .contacts{
-        width: 100%;
     }
 
     .call_us-text{
@@ -1355,8 +1327,6 @@ li a{
     /*footer adaptation*/
     .footer{
         height: 800px;
-        width: 100%;
-        margin-top: 93px;
     }
 
     .section_footer{
@@ -1365,10 +1335,8 @@ li a{
         grid-template-columns: 1fr 1fr;
     }
 
-
     .lower_footer{
         width: 610px;
-        display: flex;
         margin-top: 15px;
         padding-left: 0;
         padding-right: 0;
@@ -1377,14 +1345,10 @@ li a{
     .footer_text{
         width: 277px;
         height: 32px;
-        font-size: 16px;
-        line-height: 32px;
-        margin: 0;
     }
 
     .lower_footer-text{
         margin-left: 80px;
-        margin-top: 0;
         order: 2;
     }
 
@@ -1392,15 +1356,10 @@ li a{
         margin-left: 0;
         order: 1;
     }
-
-    .social_networks img{
-        padding-left: 10px;
-    }
 }
 
 /*adaptation for phone*/
 @media only screen and (max-width: 615px) {
-
     .about-us_block{
         width: 338px;
     }
@@ -1419,17 +1378,7 @@ li a{
         padding-left: 0;
     }
 
-    .input_field{
-        padding-left: 21px;
-        width: 150px;
-        height: 60px;
-        padding-right: 164px;
-        font-size: 14px;
-    }
-
     .header_image{
-        background-size: cover;
-        background: url(Images/Rectangle1.png) no-repeat center center;
         height: 601px;
     }
 
@@ -1446,21 +1395,11 @@ li a{
     }
 
     .header_button-links{
-        display: flex;
         position: absolute;
-        top: 25px;
-        right: 25px;
-        font-weight: bold;
-        font-size: 14px;
     }
 
     .header_links ul{
         display: none;
-    }
-
-    .header_block{
-        margin-top: 40px;
-        padding-left: 0;
     }
 
     .header_title{
@@ -1474,10 +1413,7 @@ li a{
     }
 
     .header_text{
-        width: 335px;
-        height: 87px;
         font-size: 12px;
-        line-height: 23px;
         text-align: center;
         margin-top: 30px;
         padding-left: 0;
@@ -1485,20 +1421,16 @@ li a{
 
     .search_button{
         top: -57px;
-        width: 90px;
-        height: 50px;
         left: 115px;
         margin-left: 0;
     }
 
-    /*first block adaptation*/
     .quality_control-title{
         margin-left: auto;
         margin-right: auto;
         margin-top: 60px;
         width: 286px;
         height: 31px;
-        font-weight: 800;
         font-size: 24px;
         line-height: 33px;
     }
@@ -1511,69 +1443,48 @@ li a{
     }
 
     .wrapper {
-        display: grid;
+        margin-top: 0;
         grid-template-columns: 1fr;
     }
 
+
+    .file_figure{
+        padding-top: 40px;
+    }
+    .figures{
+        padding-top: 70px;
+    }
+
+
     .section_quality_control{
+        height: 1850px;
         width: 335px;
     }
 
     .wrapper_block_title{
         width: 284px;
         height: 31px;
-        font-weight: 800;
-        font-size: 24px;
         line-height: 33px;
     }
 
     .wrapper_block_text{
-        width: 298px;
         height: 84px;
-        font-size: 18px;
-        line-height: 28px;
-        margin-top: 2px;
     }
 
-    /*Red background adaptation*/
     .offers{
-        margin-top: 700px;
-        height: 880px;
+        height: 930px;
     }
 
     .offers-title{
-        padding-top: 40px;
         width: 335px;
-        height: 94px;
         font-size: 36px;
-        line-height: 47px;
-        text-align: center;
     }
 
     .offers-text{
-        width: 190px;
-        height: 32px;
         font-size: 14px;
-        line-height: 32px;
-        text-align: center;
-    }
-
-    .steps{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .first_step{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .first_step-title{
-        margin: 0;
-        text-align: center;
         font-size: 18px;
         width: 200px;
     }
@@ -1582,55 +1493,36 @@ li a{
         width: 200px;
         height: 52px;
         font-size: 18px;
-        text-align: center;
-        margin-left: 0;
     }
 
     .third_step-title{
         width: 200px;
         height: 52px;
         font-size: 18px;
-        text-align: center;
-        margin-left: 0;
     }
 
     .fourth_step-title{
         width: 200px;
         height: 52px;
         font-size: 18px;
-        text-align: center;
-        margin-left: 0;
     }
 
     .second_step{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-top: 44px;
     }
 
     .third_step{
         margin-top: 44px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .fourth_step{
         margin-top: 44px;
-        display: flex;
-        flex-direction: column;
     }
 
     .circle{
-        transform: rotate(90deg);
         margin-top: 44px;
-        margin-right: auto;
-        margin-left: auto;
     }
 
-
-    /*fourth block adaptation*/
     .section-about_us{
         margin-top: 90px;
         display: flex;
@@ -1638,16 +1530,7 @@ li a{
         width: 100%;
     }
 
-    .about-us_block{
-        order: 2;
-    }
-
-    .first_illustration{
-        padding-left: 0;
-    }
-
     .illustration{
-        order: 1;
         width: 335px;
         height: 312px;
     }
@@ -1656,23 +1539,12 @@ li a{
         padding-top: 30px;
         width: 335px;
         height: 83px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
         line-height: 41px;
-        text-align: center;
     }
 
     .about-us-text{
         width: 336px;
         height: 200px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 28px;
-        text-align: center;
     }
 
     .button_find{
@@ -1681,23 +1553,7 @@ li a{
         height: 48px;
     }
 
-    .section-about_testing{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .about-testing_block{
-        order: 1;
-        padding-left: 0;
-    }
-
-    .second_illustration{
-        padding-left: 0;
-    }
-
     .illustration2{
-        order: 2;
         width: 335px;
         height: 312px;
     }
@@ -1706,23 +1562,12 @@ li a{
         padding-top: 30px;
         width: 335px;
         height: 83px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
         line-height: 41px;
-        text-align: center;
     }
 
     .about-testing-text{
         width: 336px;
         height: 200px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 28px;
-        text-align: center;
     }
 
     .services{
@@ -1742,14 +1587,8 @@ li a{
         text-align: center;
     }
 
-    .advertisement{
-        flex-direction: column;
-    }
-
     .our_partners{
-        width: 100%;
         height: 1000px;
-        margin-top: 90px;
     }
 
     .fourth_img{
@@ -1758,10 +1597,6 @@ li a{
 
     .fifth_img{
         display: none;
-    }
-
-    .contacts{
-        width: 100%;
     }
 
     .red_ellipse {
@@ -1773,22 +1608,14 @@ li a{
     .call_us-title{
         width: 192px;
         height: 32px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: 800;
         font-size: 36px;
-        line-height: 32px;
     }
 
     .call_us-text{
         width: 335px;
         height: 50px;
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: 500;
         font-size: 14px;
         line-height: 25px;
-        text-align: center;
     }
 
     .users_img{
@@ -1798,15 +1625,12 @@ li a{
     .button_call{
         width: 124px;
         height: 42px;
-        font-weight: 600;
         font-size: 16px;
         line-height: 20px;
     }
 
     .footer{
         height: 1440px;
-        width: 100%;
-        margin-top: 93px;
     }
 
     .section_footer{
@@ -1817,28 +1641,16 @@ li a{
     .lower_footer{
         width: 335px;
         flex-direction: column;
-        margin-top: 15px;
-    }
-
-    .footer_text{
-        width: 277px;
-        height: 32px;
-        font-size: 16px;
-        line-height: 32px;
+        margin: 0 auto;
+        align-items: flex-start;
     }
 
     .lower_footer-text{
-        margin-left: 10px;
+        margin-left: 5px;
         margin-top: 45px;
-        order: 2;
     }
 
-    .social_networks{
+    .first_logo{
         margin-left: 0;
-        order: 1;
-    }
-
-    .social_networks img{
-        padding-left: 10px;
     }
 }
